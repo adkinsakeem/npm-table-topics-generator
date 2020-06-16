@@ -1,0 +1,29 @@
+{
+  "name": "table-topic-generator",
+  "version": "1.0.0",
+  "description": "Generates a random number of table topics depending on the number submitted, and the categories chosen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adkinsakeem/npm-table-topics-generator.git"
+  },
+  "keywords": [
+    "tabletopics",
+    "table",
+    "topics",
+    "toastmasters",
+    "generator",
+    "random",
+    "impromptu",
+    "question"
+  ],
+  "author": "Akeem Adkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adkinsakeem/npm-table-topics-generator/issues"
+  },
+  "homepage": "https://github.com/adkinsakeem/npm-table-topics-generator#readme"
+}
