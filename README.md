@@ -6,7 +6,7 @@ As a member of ToastMasters we are periodically asked to answer a “Table Topic
 
 ## Installation
 
-`npm i table-topic-generator --save`
+`npm install table-topic-generator`
 
 ## Usage
 
@@ -30,12 +30,13 @@ tableTopicGenerator(2, "Summer", "Vacation");
 
 ## Categories
 ### Below are the valid categories this API recognizes:
-Cold	Warm	Hot        Religion        Home        Family        Friends        Love        Hate        Political        Time        Literature        Pop Culture        Emotions        Current Events        How-To        Music        History        Education        Health        Money        Self        Celebration        Food        Holiday        Vacation        Finish/Fill in the blank        Indoor        Outdoor        Task        Opinion        Controversy        Hobby        Mental Health        Confidence        Nature        Vintage        Religion        Fiction        Non-Fiction        Law        Animals        People        Criticism        Career        Sports        Recreation        Children        Adults        Happy        Sad        Art        Technology        Favorite        Motivation/Inspiration        Winter        Fall        Spring        Summer        Memories 
+Cold, Warm, Hot, Religion, Home, Family, Friends, Love, Hate, Political, Time, Literature, Pop Culture, Emotions, Current Events, How-To, Music, History, Education, Health, Money, Self, Celebration, Food, Holiday, Vacation, Finish/Fill in  the blank, Indoor, Outdoor, Task, Opinion, Controversy, Hobby, Mental, Health, Confidence, Nature, Vintage, Religion, Fiction, Non-Fiction, Law, Animals, People, Criticism, Career, Sports, Recreation, Children, Adults, Happy, Sad, Art, Technology, Favorite, Motivation/Inspiration, Winter, Fall, Spring, Summer, Memories
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
 
 ## Contact Information for the Programmer
 ### Name: Akeem Adkins
@@ -43,5 +44,8 @@ Please make sure to update tests as appropriate.
 ### GitHub: https://github.com/adkinsakeem/
 
 
+
 ## More Information
 #### For more information on ToastMasters, visit their site at [https://toastmasters.csod.com/](https://toastmasters.csod.com/)
+
+
