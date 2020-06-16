@@ -5,7 +5,8 @@ let Table_Topics = [];
 let count = 0;
 let message = "We were able to produce your requested table topics";
 
-function RandomTableTopics(...args){
+tableTopicsGenerator(2, "Summer", "Vacation");
+function tableTopicsGenerator(...args){
 	for(let x=0;x<args.length;x++){
 		if(typeof args[x] == "number"){
 			count = args[x];
@@ -43,6 +44,9 @@ function RandomTableTopics(...args){
 		}
 
 		let returnJSONObject = {Message: message, Table_Topics: Table_Topics};
+			console.log(returnJSONObject);
+
 	}
+	//return returnJSONObject;
 }
-module.exports.RandomTableTopics = RandomTableTopics;
+//module.exports.tableTopicsGenerator = tableTopicsGenerator;
