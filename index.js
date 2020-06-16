@@ -5,15 +5,14 @@ let Table_Topics = [];
 let count = 0;
 let message = "We were able to produce your requested table topics";
 
-function tableTopicsGenerator(...args){
+module.exports = function(...args){
 	for(let x=0;x<args.length;x++){
 		if(typeof args[x] == "number"){
 			count = args[x];
 		}else{
-			categoriesArray.push(args[x]);
+			categoriesArray.push(args[x].toUpperCase());
 		}
 	}
-
 	const tableTopicsJSONFile = TableTopicsJSON;
 	let tempTopics = [];
 	let tempCount = [];
@@ -21,7 +20,7 @@ function tableTopicsGenerator(...args){
 		message = "You need to provide the amount of table topics you would like to generate.";
 	}else{
 		for(var x=0;x<TableTopicsJSON.All_Topics.length;x++){
-			let tempArray = TableTopicsJSON.All_Topics[x].Categories
+			let tempArray = (TableTopicsJSON.All_Topics[x].Categories).toString().toUpperCase();
 			if(categoriesArray.every(r=> tempArray.includes(r))){
 				tempTopics.push(tableTopicsJSONFile.All_Topics[x]);
 			}
@@ -43,8 +42,6 @@ function tableTopicsGenerator(...args){
 		}
 
 		let returnJSONObject = {Message: message, Table_Topics: Table_Topics};
+		return returnJSONObject;
 	}
-
-	return returnJSONObject;
 }
-module.exports.tableTopicsGenerator = tableTopicsGenerator;
