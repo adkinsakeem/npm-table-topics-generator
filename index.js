@@ -5,7 +5,6 @@ let Table_Topics = [];
 let count = 0;
 let message = "We were able to produce your requested table topics";
 
-tableTopicsGenerator(2, "Summer", "Vacation");
 function tableTopicsGenerator(...args){
 	for(let x=0;x<args.length;x++){
 		if(typeof args[x] == "number"){
@@ -44,9 +43,8 @@ function tableTopicsGenerator(...args){
 		}
 
 		let returnJSONObject = {Message: message, Table_Topics: Table_Topics};
-			console.log(returnJSONObject);
-
 	}
-	//return returnJSONObject;
+
+	return returnJSONObject;
 }
-//module.exports.tableTopicsGenerator = tableTopicsGenerator;
+module.exports.tableTopicsGenerator = tableTopicsGenerator;
